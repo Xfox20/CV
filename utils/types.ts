@@ -6,7 +6,7 @@ export type CV = {
   skills: string[];
   education: Education[];
   experience: Experience[];
-  achievements: Achievement[]
+  achievements?: Achievement[];
 };
 
 export type PersonalData = {
