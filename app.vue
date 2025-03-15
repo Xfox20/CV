@@ -18,7 +18,7 @@ const { data: cv } = await useFetch<CV>(`${url.origin}/cv.json`);
           {{ cv?.name }}
         </h1>
         <p class="text-gray-500 text-sm">
-          {{ cv?.addresses.join(" | ") }}
+          {{ cv?.addresses?.join(" | ") }}
         </p>
       </div>
     </header>
