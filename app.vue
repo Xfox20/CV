@@ -33,6 +33,7 @@ const { data: cv } = await useFetch<CV>(`${url.origin}/cv.json`);
         />
         <Skills v-if="cv?.skills" title="Fertigkeiten" :entries="cv?.skills" />
         <Education v-if="cv?.education" :entries="cv?.education" />
+        <Achievements v-if="cv?.achievements" :entries="cv?.achievements" />
       </div>
       <div class="col-span-2">
         <Experience v-if="cv?.experience" :entries="cv?.experience" />

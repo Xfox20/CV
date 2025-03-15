@@ -28,5 +28,11 @@ type CV = {
     description: string;
     details: string[];
   }[];
+  achievements?: {
+    name: string;
+    rank: string;
+    date: string;
+    description: string;
+  }[];
 };
 ```
