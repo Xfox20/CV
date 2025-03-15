@@ -14,7 +14,7 @@ export type PersonalData = {
 };
 
 export type Education = {
-  name: string;
+  schoolName: string;
   date: string;
   description: string;
 };

@@ -18,7 +18,7 @@ type CV = {
   abilities: string[];
   skills: string[];
   education: {
-    name: string;
+    schoolName: string;
     date: string;
     description: string;
   }[];
