@@ -5,7 +5,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="mb-8">
+  <div class="mb-8 break-inside-avoid">
     <div class="flex items-center gap-3">
       <div class="w-3 h-3 bg-blue-500 rounded-full z-20"></div>
       <p class="text-gray-500 text-sm">{{ props.data.date }}</p>
