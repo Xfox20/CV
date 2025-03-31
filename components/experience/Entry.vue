@@ -16,7 +16,7 @@ const props = defineProps<{
       <ul
         class="list-disc list-outside pl-4 mt-2 text-gray-700 leading-relaxed"
       >
-        <li v-for="detail in props.data.details">{{ detail }}</li>
+        <li v-for="detail in props.data.details" v-html="detail"></li>
       </ul>
     </div>
   </div>

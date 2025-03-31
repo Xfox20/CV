@@ -9,7 +9,7 @@ const props = defineProps<{
   <section>
     <h2>{{ title }}</h2>
     <ul>
-      <li v-for="name in entries">{{ name }}</li>
+      <li v-for="name in entries" v-html="name"></li>
     </ul>
   </section>
 </template>

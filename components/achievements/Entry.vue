@@ -13,6 +13,6 @@ const props = defineProps<{
       </span>
     </p>
     <p class="text-gray-600 text-sm">{{ props.data.date }}</p>
-    <p class="mt-1.5 text-gray-700">{{ props.data.description }}</p>
+    <p class="mt-1.5 text-gray-700" v-html="props.data.description"></p>
   </div>
 </template>
