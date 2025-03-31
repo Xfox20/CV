@@ -11,6 +11,6 @@ const props = defineProps<{
       <span class="text-gray-400 text-right text-sm">{{ props.data.rank }}</span>
     </p>
     <p class="text-gray-600 text-sm">{{ props.data.date }}</p>
-    <p class="mt-2 text-gray-700">{{ props.data.description }}</p>
+    <p class="mt-1.5 text-gray-700">{{ props.data.description }}</p>
   </div>
 </template>
